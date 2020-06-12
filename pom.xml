@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.xiegudong.jingdong</groupId>
+    <artifactId>jingdong-ware</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>jingdong</name>
+    <description>聚合模块</description>
+    <packaging>pom</packaging>
+    <modules>
+        <module>jingdong-ware</module>
+        <module>jingdong-product</module>
+        <module>jingdong-order</module>
+        <module>jingdong-member</module>
+        <module>jingdong-coupon</module>
+    </modules>
+</project>
